@@ -1,0 +1,1 @@
+tensorboard --logdir_spec FusionNet:./FusionNet_for_CenterLineDet/tensorboard,HDMapNet:./HDMapNet_for_CenterLineDet/tensorboard   --port 6006 --bind_all

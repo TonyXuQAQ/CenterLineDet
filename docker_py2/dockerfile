@@ -1,0 +1,15 @@
+FROM tensorflow/tensorflow:1.15.0-gpu
+RUN rm /etc/apt/sources.list.d/cuda.list
+RUN rm /etc/apt/sources.list.d/nvidia-ml.list
+RUN apt-key del 7fa2af80
+RUN apt-get update && apt-get install -y --no-install-recommends wget
+RUN wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-keyring_1.0-1_all.deb
+RUN dpkg -i cuda-keyring_1.0-1_all.deb
+RUN apt-get update
+RUN apt-get install -y libglib2.0-0 libsm6 libxext6 libxrender1 libgl1-mesa-glx zip git
+RUN pip install pandas scikit-image tflearn opencv-python==4.2.0.32 tqdm rtree hopcroftkarp svgwrite
+
+RUN apt install -y python3-pip
+RUN pip3 install --upgrade pip
+RUN pip3 install  numpy pillow scikit-image tqdm opencv-python
+WORKDIR /tonyxu
