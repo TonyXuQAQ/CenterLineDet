@@ -1,4 +1,4 @@
-# CenterLineDet
+# Baselines
 
 In this part, we provide the implementation of CenterLineDet with either HDMapNet or FusionNet as the perspective transformation network.
 
@@ -14,8 +14,19 @@ Then, run
 to generate segmentation maps.
 
 
-### Sampling and Training
-Commming soon...
+### Sampling 
+Run
+```
+./bash/HD_sample.bash
+```
+to generate training samples.
+
+### Training 
+Run
+```
+./bash/HD_train.bash
+```
+to train the network.
 
 ### Inference
 Run 
@@ -35,8 +46,19 @@ Then, run
 to generate segmentation maps.
 
 
-### Sampling and Training
-Commming soon...
+### Sampling 
+Run
+```
+./bash/Fusion_sample.bash
+```
+to generate training samples.
+
+### Training 
+Run
+```
+./bash/Fusion_train.bash
+```
+to train the network.
 
 ### Inference
 Run 
