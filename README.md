@@ -2,9 +2,9 @@
 This is the official repo of paper **CenterLineDet: Road Lane CenterLine Graph Detection With Vehicle-Mounted Sensors by Transformer for High-definition Map Creation** by Zhenhua Xu, Yuxuan Liu, Yuxiang Sun, Ming Liu and Lujia Wang.
 
 ## Update 
-Jan/18/2022: Release the training code
+Jan/18/2023: Release the training code
 
-Jan/17/2022: Accepted by ICRA 2023
+Jan/17/2023: Accepted by ICRA 2023
 
 Oct/15/2022: Release the inference code
 
