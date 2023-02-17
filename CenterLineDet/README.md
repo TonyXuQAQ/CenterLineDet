@@ -2,6 +2,8 @@
 
 In this part, we provide the implementation of CenterLineDet with either HDMapNet or FusionNet as the perspective transformation network.
 
+## Raw output
+Find the raw output and evalution results in the following link [raw results](https://drive.google.com/file/d/1T6ZVuh_tmk6kQG38O6_Z4KFwhwZtiqqo/view?usp=share_link).
 
 ## CenterLineDet-with-HDMapNet
 ### Prerequisite
