@@ -1,1 +1,0 @@
-docker build -t zhxu_py2 .
