@@ -82,12 +82,17 @@ We thank the following open-sourced projects:
 [DETR](https://github.com/facebookresearch/detr)
 
 ## Citation
-@article{xu2022centerlinedet,
-  title={CenterLineDet: Road Lane CenterLine Graph Detection With Vehicle-Mounted Sensors by Transformer for High-definition Map Creation},
+```
+@INPROCEEDINGS{10161508,
   author={Xu, Zhenhua and Liu, Yuxuan and Sun, Yuxiang and Liu, Ming and Wang, Lujia},
-  journal={arXiv preprint arXiv:2209.07734},
-  year={2022}
-}
-
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={CenterLineDet: CenterLine Graph Detection for Road Lanes with Vehicle-mounted Sensors by Transformer for HD Map Generation}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={3553-3559},
+  keywords={Laser radar;Network topology;Roads;Transformers;Topology;Sensors;Planning},
+  doi={10.1109/ICRA48891.2023.10161508}}
+```
 ## License
 GNU General Public License v3.0
