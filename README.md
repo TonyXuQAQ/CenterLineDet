@@ -1,4 +1,4 @@
-# CenterLineDet
+# [ICRA 2023] CenterLineDet
 This is the official repo of paper **CenterLineDet: Road Lane CenterLine Graph Detection With Vehicle-Mounted Sensors by Transformer for High-definition Map Creation** by Zhenhua Xu, Yuxuan Liu, Yuxiang Sun, Ming Liu and Lujia Wang.
 
 ## Update 
